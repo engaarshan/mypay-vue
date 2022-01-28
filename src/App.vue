@@ -19,7 +19,7 @@
 		</back-to-top>
 
 		<!-- App footer -->
-		<FooterComponent />
+		<!-- <FooterComponent /> -->
 	</div>
 </template>
 
@@ -32,7 +32,6 @@ import FooterComponent from './components/FooterComponent.vue';
 export default {
 	components: {
 		HeaderComponent,
-		FooterComponent,
 	},
 	mounted() {
 		feather.replace();
