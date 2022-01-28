@@ -1,4 +1,4 @@
-# mypayapp
+# myvueapp
 
 ## Project setup
 ```
