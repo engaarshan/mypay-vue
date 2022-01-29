@@ -15,19 +15,19 @@
 			bottom="20px"
 			class="shadow-lg"
 		>
-			<i data-feather="chevron-up"></i>
+		<i data-feather="chevron-up"></i>
 		</back-to-top>
 
 		<!-- App footer -->
-		<!-- <FooterComponent /> -->
+		<FooterComponent />
 	</div>
 </template>
 
 
 <script>
 import feather from 'feather-icons';
-import HeaderComponent from './components/HeaderComponent.vue';
-import FooterComponent from './components/FooterComponent.vue';
+import HeaderComponent from './components/shared/HeaderComponent.vue';
+import FooterComponent from './components/shared/FooterComponent.vue';
 
 export default {
 	components: {
@@ -51,7 +51,7 @@ export default {
 }
 
 .vue-back-to-top {
-	@apply p-2 bg-indigo-500 hover:bg-indigo-600 text-white transition
+	@apply p-2 bg-orange-500 hover:bg-orange-600 text-white transition
         duration-500
         ease-in-out
         transform

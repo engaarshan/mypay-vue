@@ -2,20 +2,20 @@
   <div>
     <!-- dashboard Content -->
     <div class="container mx-auto">
-      <DashboardComponent />
+      <TransactionComponent />
     </div>
   </div>
 </template>
 
 <script>
 
-import DashboardComponent from '../components/DashboardComponent.vue';
+import TransactionComponent from '../components/TransactionComponent.vue';
 
 export default {
-  name: 'HomeView',
+  name: 'TransactionView',
   
 	components: {
-		DashboardComponent,
+		TransactionComponent,
 	},
 }
 </script>
